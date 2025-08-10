@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0emncJH1Ee6snPCN6-H1wA" name="employer">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0gO_IJH1Ee6snPCN6-H1wA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_0fbG0JH1Ee6snPCN6-H1wA" name="CustomerPOV">
+    <region xmi:type="uml:Region" xmi:id="_0fcU8JH1Ee6snPCN6-H1wA" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_O8NHoJH2Ee6snPCN6-H1wA" source="_2HeCsJH1Ee6snPCN6-H1wA" target="_25zekJH1Ee6snPCN6-H1wA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Pt_J4JH2Ee6snPCN6-H1wA" source="_25zekJH1Ee6snPCN6-H1wA" target="_4h1MUJH1Ee6snPCN6-H1wA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Q05HkJH2Ee6snPCN6-H1wA" source="_4h1MUJH1Ee6snPCN6-H1wA" target="_6BF_oJH1Ee6snPCN6-H1wA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_RwUOAJH2Ee6snPCN6-H1wA" source="_4h1MUJH1Ee6snPCN6-H1wA" target="_-3u-cJH1Ee6snPCN6-H1wA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_SjFHsJH2Ee6snPCN6-H1wA" source="_4h1MUJH1Ee6snPCN6-H1wA" target="_LSICkJH2Ee6snPCN6-H1wA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_WXOHsJH2Ee6snPCN6-H1wA" source="_4h1MUJH1Ee6snPCN6-H1wA" target="_UOVIkJH2Ee6snPCN6-H1wA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_YUByoJH2Ee6snPCN6-H1wA" source="_UOVIkJH2Ee6snPCN6-H1wA" target="_VcrLAJH2Ee6snPCN6-H1wA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_2HeCsJH1Ee6snPCN6-H1wA" name="Initial1"/>
+      <subvertex xmi:type="uml:State" xmi:id="_25zekJH1Ee6snPCN6-H1wA" name="login"/>
+      <subvertex xmi:type="uml:State" xmi:id="_4h1MUJH1Ee6snPCN6-H1wA" name="CustomerUI"/>
+      <subvertex xmi:type="uml:State" xmi:id="_6BF_oJH1Ee6snPCN6-H1wA" name="Give Loans"/>
+      <subvertex xmi:type="uml:State" xmi:id="_-3u-cJH1Ee6snPCN6-H1wA" name="Fund Transfer"/>
+      <subvertex xmi:type="uml:State" xmi:id="_LSICkJH2Ee6snPCN6-H1wA" name="Apply for loan"/>
+      <subvertex xmi:type="uml:State" xmi:id="_UOVIkJH2Ee6snPCN6-H1wA" name="Logout"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_VcrLAJH2Ee6snPCN6-H1wA" name="FinalState13"/>
+    </region>
+  </packagedElement>
+</uml:Model>

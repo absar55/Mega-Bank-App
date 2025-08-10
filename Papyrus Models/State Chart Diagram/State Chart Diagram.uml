@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2VFioJEeEe6B37EJbwjRkw" name="State Chart Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_2W2dMJEeEe6B37EJbwjRkw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_2VfyUJEeEe6B37EJbwjRkw" name="UserPOV">
+    <region xmi:type="uml:Region" xmi:id="_2V0icJEeEe6B37EJbwjRkw" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_Iq3KoJEgEe6B37EJbwjRkw" source="_9xYVEJEeEe6B37EJbwjRkw" target="_uCNRAJEfEe6B37EJbwjRkw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_KLaXYJEgEe6B37EJbwjRkw" source="_uCNRAJEfEe6B37EJbwjRkw" target="_BSOwMJEgEe6B37EJbwjRkw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_K1ZIgJEgEe6B37EJbwjRkw" source="_BSOwMJEgEe6B37EJbwjRkw" target="_D9UdcJEgEe6B37EJbwjRkw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_LnUUsJEgEe6B37EJbwjRkw" source="_BSOwMJEgEe6B37EJbwjRkw" target="_F66LgJEgEe6B37EJbwjRkw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_j6pVsJEgEe6B37EJbwjRkw" source="_Zq7ZYJEgEe6B37EJbwjRkw" target="_d-PBoJEgEe6B37EJbwjRkw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_lK6qwJEgEe6B37EJbwjRkw" source="_Zq7ZYJEgEe6B37EJbwjRkw" target="_f3isoJEgEe6B37EJbwjRkw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_nn5qkJEgEe6B37EJbwjRkw" source="_f3isoJEgEe6B37EJbwjRkw" target="_mQ40UJEgEe6B37EJbwjRkw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_xNmZgJEgEe6B37EJbwjRkw" source="_f3isoJEgEe6B37EJbwjRkw" target="_tzJE0JEgEe6B37EJbwjRkw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_0F7RgJEgEe6B37EJbwjRkw" source="_mQ40UJEgEe6B37EJbwjRkw" target="_tzJE0JEgEe6B37EJbwjRkw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_CBuSYJHvEe6sPPJhhBkBtw" source="_D9UdcJEgEe6B37EJbwjRkw" target="__ETfAJHuEe6sPPJhhBkBtw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_DbuLMJHvEe6sPPJhhBkBtw" source="__ETfAJHuEe6sPPJhhBkBtw" target="_F66LgJEgEe6B37EJbwjRkw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_HCoAcJHvEe6sPPJhhBkBtw" source="_F66LgJEgEe6B37EJbwjRkw" target="_Ee11EJHvEe6sPPJhhBkBtw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_I1RCwJHvEe6sPPJhhBkBtw" source="_Ee11EJHvEe6sPPJhhBkBtw" target="_Zq7ZYJEgEe6B37EJbwjRkw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_TcmN0JHvEe6sPPJhhBkBtw" source="_MhcZkJHvEe6sPPJhhBkBtw" target="_Zq7ZYJEgEe6B37EJbwjRkw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_UC5_4JHvEe6sPPJhhBkBtw" source="_Zq7ZYJEgEe6B37EJbwjRkw" target="_RsQ4oJHvEe6sPPJhhBkBtw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_WrfLsJHvEe6sPPJhhBkBtw" source="_RsQ4oJHvEe6sPPJhhBkBtw" target="_U96PkJHvEe6sPPJhhBkBtw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_DeUvEJH2Ee6snPCN6-H1wA" source="_tzJE0JEgEe6B37EJbwjRkw" target="_MhcZkJHvEe6sPPJhhBkBtw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_tKHPQJJ7Ee6bqoUem2oT-w" source="_d-PBoJEgEe6B37EJbwjRkw" target="_dbYFgJJ7Ee6bqoUem2oT-w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_v7WAwJJ7Ee6bqoUem2oT-w" source="_d-PBoJEgEe6B37EJbwjRkw" target="_g5E7cJJ7Ee6bqoUem2oT-w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_w1AzsJJ7Ee6bqoUem2oT-w" source="_d-PBoJEgEe6B37EJbwjRkw" target="_oj__wJJ7Ee6bqoUem2oT-w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_IPSFwJJ8Ee6bqoUem2oT-w" source="_f3isoJEgEe6B37EJbwjRkw" target="_CWY_wJJ8Ee6bqoUem2oT-w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_VRYDEJJ8Ee6bqoUem2oT-w" source="_d-PBoJEgEe6B37EJbwjRkw" target="_Lg-gAJJ8Ee6bqoUem2oT-w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Z56UcJJ8Ee6bqoUem2oT-w" source="_Zq7ZYJEgEe6B37EJbwjRkw" target="_Xrq7QJJ8Ee6bqoUem2oT-w"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_9xYVEJEeEe6B37EJbwjRkw" name="Initial"/>
+      <subvertex xmi:type="uml:State" xmi:id="_uCNRAJEfEe6B37EJbwjRkw" name="Login/SignUp page"/>
+      <subvertex xmi:type="uml:State" xmi:id="_BSOwMJEgEe6B37EJbwjRkw" name="Enter Details"/>
+      <subvertex xmi:type="uml:State" xmi:id="_D9UdcJEgEe6B37EJbwjRkw" name="Register"/>
+      <subvertex xmi:type="uml:State" xmi:id="_F66LgJEgEe6B37EJbwjRkw" name="Login"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Zq7ZYJEgEe6B37EJbwjRkw" name="UserInterface"/>
+      <subvertex xmi:type="uml:State" xmi:id="_d-PBoJEgEe6B37EJbwjRkw" name="Account Managemnt"/>
+      <subvertex xmi:type="uml:State" xmi:id="_f3isoJEgEe6B37EJbwjRkw" name="Loan management"/>
+      <subvertex xmi:type="uml:State" xmi:id="_mQ40UJEgEe6B37EJbwjRkw" name="Check Loan History"/>
+      <subvertex xmi:type="uml:State" xmi:id="_tzJE0JEgEe6B37EJbwjRkw" name="Apply for loan"/>
+      <subvertex xmi:type="uml:State" xmi:id="__ETfAJHuEe6sPPJhhBkBtw" name="Get approved my admin"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Ee11EJHvEe6sPPJhhBkBtw" name="Verification"/>
+      <subvertex xmi:type="uml:State" xmi:id="_MhcZkJHvEe6sPPJhhBkBtw" name="Wait for Approval/Rejection"/>
+      <subvertex xmi:type="uml:State" xmi:id="_RsQ4oJHvEe6sPPJhhBkBtw" name="Logout"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_U96PkJHvEe6sPPJhhBkBtw" name="Final"/>
+      <subvertex xmi:type="uml:State" xmi:id="_dbYFgJJ7Ee6bqoUem2oT-w" name="Check Balance"/>
+      <subvertex xmi:type="uml:State" xmi:id="_g5E7cJJ7Ee6bqoUem2oT-w" name="Fund transfer"/>
+      <subvertex xmi:type="uml:State" xmi:id="_oj__wJJ7Ee6bqoUem2oT-w" name="Transaction history"/>
+      <subvertex xmi:type="uml:State" xmi:id="_CWY_wJJ8Ee6bqoUem2oT-w" name="Interest Calculator"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Lg-gAJJ8Ee6bqoUem2oT-w" name="Apply for Debit/Credit"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xrq7QJJ8Ee6bqoUem2oT-w" name="Account Closure"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_fMhPIJEfEe6B37EJbwjRkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fMpK8JEfEe6B37EJbwjRkw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

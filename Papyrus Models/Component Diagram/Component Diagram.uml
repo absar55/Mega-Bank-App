@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ztIMYJHjEe6m66V5OG95ow" name="Component Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_zxl1oJHjEe6m66V5OG95ow">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_1ePksJHjEe6m66V5OG95ow" name="User">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_2w0xcJHkEe6m66V5OG95ow" name="Port1" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_4cGAcJHkEe6m66V5OG95ow" name="Port2" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_7X9fMJHlEe6m66V5OG95ow" name="Port3" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_3tV5gJHjEe6m66V5OG95ow" name="Register/Login">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="__oUWkJHkEe6m66V5OG95ow" name="Port1" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_TNwFEJHlEe6m66V5OG95ow" name="Port2" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_8Zra4JHlEe6m66V5OG95ow" name="Port3" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_55g2IJHjEe6m66V5OG95ow" name="Balance">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_FW9UYJHlEe6m66V5OG95ow" name="Port1" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_XWQLgJHlEe6m66V5OG95ow" name="Port2" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_rMIUUJHmEe6m66V5OG95ow" name="Port3" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_8BjgsJHjEe6m66V5OG95ow" name="ApplyForLoan">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_HxakoJHlEe6m66V5OG95ow" name="Port1" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_aLky0JHlEe6m66V5OG95ow" name="Port2" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_smKpYJHmEe6m66V5OG95ow" name="Port3" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_C1D00JHkEe6m66V5OG95ow" name="BankManagementSystem">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_ZAYAcJHkEe6m66V5OG95ow" name="Port1" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_dJbggJHkEe6m66V5OG95ow" name="Port3" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Od9KkJHkEe6m66V5OG95ow" name="FundsTransfer">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_MhEKoJHlEe6m66V5OG95ow" name="Port1" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_bHyjcJHlEe6m66V5OG95ow" name="Port2" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_Aa3YYJHmEe6m66V5OG95ow" name="Port3" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Trg0kJHkEe6m66V5OG95ow" name="Database">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_2ywOoJHlEe6m66V5OG95ow" name="Port1" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_fQ7_kJHkEe6m66V5OG95ow" name="Admin"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_l8nNYJHkEe6m66V5OG95ow" client="_dJbggJHkEe6m66V5OG95ow" supplier="_fQ7_kJHkEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_6dOxwJHkEe6m66V5OG95ow" name="DataAccess"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_-BkbMJHkEe6m66V5OG95ow" client="_ZAYAcJHkEe6m66V5OG95ow" supplier="_2w0xcJHkEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_A9TzkJHlEe6m66V5OG95ow" client="_ZAYAcJHkEe6m66V5OG95ow" supplier="__oUWkJHkEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_GxpJsJHlEe6m66V5OG95ow" client="_ZAYAcJHkEe6m66V5OG95ow" supplier="_FW9UYJHlEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_JJzT4JHlEe6m66V5OG95ow" client="_ZAYAcJHkEe6m66V5OG95ow" supplier="_HxakoJHlEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_OdYtYJHlEe6m66V5OG95ow" client="_ZAYAcJHkEe6m66V5OG95ow" supplier="_MhEKoJHlEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_SU38UJHlEe6m66V5OG95ow" client="_4cGAcJHkEe6m66V5OG95ow" supplier="_6dOxwJHkEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UKSl0JHlEe6m66V5OG95ow" client="_TNwFEJHlEe6m66V5OG95ow" supplier="_6dOxwJHkEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_YvhrkJHlEe6m66V5OG95ow" client="_XWQLgJHlEe6m66V5OG95ow" supplier="_6dOxwJHkEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_cHOnMJHlEe6m66V5OG95ow" name="DataAccess"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ervLUJHlEe6m66V5OG95ow" client="_aLky0JHlEe6m66V5OG95ow" supplier="_cHOnMJHlEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_fq2e8JHlEe6m66V5OG95ow" client="_bHyjcJHlEe6m66V5OG95ow" supplier="_cHOnMJHlEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_mTlGcJHlEe6m66V5OG95ow" name="Provides"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_xPNtkJHlEe6m66V5OG95ow" name="Required"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_4PLwYJHlEe6m66V5OG95ow" client="_2ywOoJHlEe6m66V5OG95ow" supplier="_mTlGcJHlEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_esNP8JHmEe6m66V5OG95ow" name="Confirmation"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_huf8QJHmEe6m66V5OG95ow" client="_Aa3YYJHmEe6m66V5OG95ow" supplier="_esNP8JHmEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_lCWSoJHmEe6m66V5OG95ow" client="_7X9fMJHlEe6m66V5OG95ow" supplier="_esNP8JHmEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_ojZ-kJHmEe6m66V5OG95ow" client="_7X9fMJHlEe6m66V5OG95ow" supplier="_xPNtkJHlEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_pqI9IJHmEe6m66V5OG95ow" client="_8Zra4JHlEe6m66V5OG95ow" supplier="_xPNtkJHlEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_u2aNsJHmEe6m66V5OG95ow" client="_rMIUUJHmEe6m66V5OG95ow" supplier="_xPNtkJHlEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_wdHs0JHmEe6m66V5OG95ow" client="_smKpYJHmEe6m66V5OG95ow" supplier="_xPNtkJHlEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_yXK-sJHmEe6m66V5OG95ow" client="_Aa3YYJHmEe6m66V5OG95ow" supplier="_xPNtkJHlEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_KNproJHnEe6m66V5OG95ow" name="Register/Login"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_P6zbsJHnEe6m66V5OG95ow" client="_7X9fMJHlEe6m66V5OG95ow" supplier="_KNproJHnEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_Rr-eYJHnEe6m66V5OG95ow" client="_8Zra4JHlEe6m66V5OG95ow" supplier="_KNproJHnEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Tb8nMJHnEe6m66V5OG95ow" name="Loan"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_WcUA4JHnEe6m66V5OG95ow" client="_7X9fMJHlEe6m66V5OG95ow" supplier="_Tb8nMJHnEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_XmswYJHnEe6m66V5OG95ow" client="_rMIUUJHmEe6m66V5OG95ow" supplier="_Tb8nMJHnEe6m66V5OG95ow"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_Y8zAoJHnEe6m66V5OG95ow" client="_smKpYJHmEe6m66V5OG95ow" supplier="_Tb8nMJHnEe6m66V5OG95ow"/>
+</uml:Model>

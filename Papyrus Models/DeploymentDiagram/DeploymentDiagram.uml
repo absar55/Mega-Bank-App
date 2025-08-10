@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JnUw0JH6Ee6sjqz_ygghtA" name="DeploymentDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_JxsNwJH6Ee6sjqz_ygghtA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Node" xmi:id="_2ed0IJH6Ee6sjqz_ygghtA" name="Web Server">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_BHr1kJH7Ee6sjqz_ygghtA" name="PHP Files" fileName=""/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_EeqYcJH7Ee6sjqz_ygghtA" name="MySQL Server">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_IbWQcJH7Ee6sjqz_ygghtA" name="MySQL DB" fileName=""/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_OLdN4JH7Ee6sjqz_ygghtA" name="UserDevice">
+    <nestedNode xmi:type="uml:Node" xmi:id="_Rg9KEJH7Ee6sjqz_ygghtA" name="Browser"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_V8C1UJH7Ee6sjqz_ygghtA" name="HTML5" fileName=""/>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_aH6_4JH7Ee6sjqz_ygghtA" memberEnd="_aICUoJH7Ee6sjqz_ygghtA _aIF_AJH7Ee6sjqz_ygghtA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aIBGgJH7Ee6sjqz_ygghtA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aIBtkJH7Ee6sjqz_ygghtA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aICUoJH7Ee6sjqz_ygghtA" name="userdevice" type="_OLdN4JH7Ee6sjqz_ygghtA" association="_aH6_4JH7Ee6sjqz_ygghtA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aIF_AJH7Ee6sjqz_ygghtA" name="web server" type="_2ed0IJH6Ee6sjqz_ygghtA" association="_aH6_4JH7Ee6sjqz_ygghtA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_avogIJH7Ee6sjqz_ygghtA" memberEnd="_avpuQZH7Ee6sjqz_ygghtA _avq8YJH7Ee6sjqz_ygghtA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_avpHMJH7Ee6sjqz_ygghtA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_avpuQJH7Ee6sjqz_ygghtA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_avpuQZH7Ee6sjqz_ygghtA" name="mysql server" type="_EeqYcJH7Ee6sjqz_ygghtA" association="_avogIJH7Ee6sjqz_ygghtA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_avq8YJH7Ee6sjqz_ygghtA" name="web server" type="_2ed0IJH6Ee6sjqz_ygghtA" association="_avogIJH7Ee6sjqz_ygghtA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_d9SH4JH7Ee6sjqz_ygghtA" name="CSS3" fileName=""/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_gDK2UJH7Ee6sjqz_ygghtA" name="JS Files" fileName=""/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_pN4SYJH7Ee6sjqz_ygghtA" name="Bootstrap" fileName=""/>
+</uml:Model>

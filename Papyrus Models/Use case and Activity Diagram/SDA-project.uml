@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_snEgEJBsEe6MjupPj9Muaw" name="usecase">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_syzO8JBsEe6MjupPj9Muaw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_wlzmgJBsEe6MjupPj9Muaw" name="Bank Management System">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8rQ8cJBsEe6MjupPj9Muaw" name="Register"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_e0uVEJBtEe6MjupPj9Muaw" name="Login">
+      <include xmi:type="uml:Include" xmi:id="_NP_BEJBvEe6MjupPj9Muaw" addition="_JZX74JBvEe6MjupPj9Muaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tJrocJBtEe6MjupPj9Muaw" name="Check information">
+      <extend xmi:type="uml:Extend" xmi:id="_C4WUUJBuEe6MjupPj9Muaw" extendedCase="_AGPZEJBuEe6MjupPj9Muaw" extensionLocation="_C4XicJBuEe6MjupPj9Muaw"/>
+      <include xmi:type="uml:Include" xmi:id="_c3gsQJHzEe6Uvquv9KAQdQ" addition="_YZJDgJHzEe6Uvquv9KAQdQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AGPZEJBuEe6MjupPj9Muaw" name="Prompt error">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_C4XicJBuEe6MjupPj9Muaw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_YiiagJELEe6B37EJbwjRkw" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JZX74JBvEe6MjupPj9Muaw" name="Enter credentials">
+      <include xmi:type="uml:Include" xmi:id="_XxeJ8JELEe6B37EJbwjRkw" addition="_tJrocJBtEe6MjupPj9Muaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Pv7OQJBvEe6MjupPj9Muaw" name="Transaction History"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TTNHwJBvEe6MjupPj9Muaw" name="Check Account Balance">
+      <extend xmi:type="uml:Extend" xmi:id="_gR26EJBwEe6MjupPj9Muaw" extendedCase="_f4D6AJBwEe6MjupPj9Muaw" extensionLocation="_gR3hIJBwEe6MjupPj9Muaw"/>
+      <include xmi:type="uml:Include" xmi:id="_ZDsfsJBvEe6MjupPj9Muaw" addition="_Xh6j4JBvEe6MjupPj9Muaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Xh6j4JBvEe6MjupPj9Muaw" name="account history"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_f4D6AJBwEe6MjupPj9Muaw" name="Check Loan">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_gR3hIJBwEe6MjupPj9Muaw" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_u2oLEJBwEe6MjupPj9Muaw" addition="_pFpD4JBwEe6MjupPj9Muaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pFpD4JBwEe6MjupPj9Muaw" name="Provide Loan"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wNbl8JBwEe6MjupPj9Muaw" name="Loan Management">
+      <extend xmi:type="uml:Extend" xmi:id="_KpHakJBxEe6MjupPj9Muaw" extendedCase="_IBfRAJBxEe6MjupPj9Muaw" extensionLocation="_KpIBoJBxEe6MjupPj9Muaw"/>
+      <include xmi:type="uml:Include" xmi:id="_-7QsUJBwEe6MjupPj9Muaw" addition="_8gt8gJBwEe6MjupPj9Muaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8gt8gJBwEe6MjupPj9Muaw" name="Enter details"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_IBfRAJBxEe6MjupPj9Muaw" name="Apply for a loan">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_KpIBoJBxEe6MjupPj9Muaw" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_O3PA0JBxEe6MjupPj9Muaw" addition="_LUU6wJBxEe6MjupPj9Muaw"/>
+      <include xmi:type="uml:Include" xmi:id="_dVVpIJBxEe6MjupPj9Muaw" addition="_Q8PlgJBxEe6MjupPj9Muaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LUU6wJBxEe6MjupPj9Muaw" name="loan application"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Q8PlgJBxEe6MjupPj9Muaw" name="Loan approved/rejected"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YZJDgJHzEe6Uvquv9KAQdQ" name="Approve or reject registration"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4-pqwJJvEe6dbJJbFmNo5A" name="Fund Transfer"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NNwBUJJwEe6dbJJbFmNo5A" name="Account Closure"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8OOvsJJwEe6dbJJbFmNo5A" name="Apply for Debit/Credit card"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_35blIJBsEe6MjupPj9Muaw" name="Customer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VohEMJBtEe6MjupPj9Muaw" memberEnd="_Vo-XMJBtEe6MjupPj9Muaw _VpCooJBtEe6MjupPj9Muaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vo9JEJBtEe6MjupPj9Muaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Vo9JEZBtEe6MjupPj9Muaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Vo-XMJBtEe6MjupPj9Muaw" name="sign up" type="_8rQ8cJBsEe6MjupPj9Muaw" association="_VohEMJBtEe6MjupPj9Muaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VpCooJBtEe6MjupPj9Muaw" name="Customer" type="_35blIJBsEe6MjupPj9Muaw" association="_VohEMJBtEe6MjupPj9Muaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ma1x4JBtEe6MjupPj9Muaw" name="Admin (Bank Management System)"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_94gWMJBtEe6MjupPj9Muaw" memberEnd="_94g9QpBtEe6MjupPj9Muaw _94hkUJBtEe6MjupPj9Muaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_94g9QJBtEe6MjupPj9Muaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_94g9QZBtEe6MjupPj9Muaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_94g9QpBtEe6MjupPj9Muaw" name="check credentials" type="_tJrocJBtEe6MjupPj9Muaw" association="_94gWMJBtEe6MjupPj9Muaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_94hkUJBtEe6MjupPj9Muaw" name="Admin (Bank Management System)" type="_ma1x4JBtEe6MjupPj9Muaw" association="_94gWMJBtEe6MjupPj9Muaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_C5S6EJBvEe6MjupPj9Muaw" memberEnd="_C5UIMJBvEe6MjupPj9Muaw _C5UIMZBvEe6MjupPj9Muaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C5ThIJBvEe6MjupPj9Muaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C5ThIZBvEe6MjupPj9Muaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_C5UIMJBvEe6MjupPj9Muaw" name="login" type="_e0uVEJBtEe6MjupPj9Muaw" association="_C5S6EJBvEe6MjupPj9Muaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_C5UIMZBvEe6MjupPj9Muaw" type="_35blIJBsEe6MjupPj9Muaw" association="_C5S6EJBvEe6MjupPj9Muaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RxkV4JBvEe6MjupPj9Muaw" memberEnd="_RxlkAZBvEe6MjupPj9Muaw _RxmLEJBvEe6MjupPj9Muaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Rxk88JBvEe6MjupPj9Muaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RxlkAJBvEe6MjupPj9Muaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RxlkAZBvEe6MjupPj9Muaw" name="transaction history" type="_Pv7OQJBvEe6MjupPj9Muaw" association="_RxkV4JBvEe6MjupPj9Muaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RxmLEJBvEe6MjupPj9Muaw" name="customer" visibility="private" type="_35blIJBsEe6MjupPj9Muaw" association="_RxkV4JBvEe6MjupPj9Muaw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gi-JkJJwEe6dbJJbFmNo5A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gidzQJJwEe6dbJJbFmNo5A" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VM8QkJBvEe6MjupPj9Muaw" memberEnd="_VM83opBvEe6MjupPj9Muaw _VM9esJBvEe6MjupPj9Muaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VM83oJBvEe6MjupPj9Muaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VM83oZBvEe6MjupPj9Muaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VM83opBvEe6MjupPj9Muaw" name="check account balance" type="_TTNHwJBvEe6MjupPj9Muaw" association="_VM8QkJBvEe6MjupPj9Muaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VM9esJBvEe6MjupPj9Muaw" name="Customer" type="_35blIJBsEe6MjupPj9Muaw" association="_VM8QkJBvEe6MjupPj9Muaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aX884JBvEe6MjupPj9Muaw" memberEnd="_aX9j8pBvEe6MjupPj9Muaw _aX-LAJBvEe6MjupPj9Muaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aX9j8JBvEe6MjupPj9Muaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aX9j8ZBvEe6MjupPj9Muaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aX9j8pBvEe6MjupPj9Muaw" name="usecase9" type="_Xh6j4JBvEe6MjupPj9Muaw" association="_aX884JBvEe6MjupPj9Muaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aX-LAJBvEe6MjupPj9Muaw" name="Admin (Bank Management System)" type="_ma1x4JBtEe6MjupPj9Muaw" association="_aX884JBvEe6MjupPj9Muaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tdNhEJBwEe6MjupPj9Muaw" memberEnd="_tdOIIpBwEe6MjupPj9Muaw _tdOII5BwEe6MjupPj9Muaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tdOIIJBwEe6MjupPj9Muaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tdOIIZBwEe6MjupPj9Muaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tdOIIpBwEe6MjupPj9Muaw" name="provide loan" type="_pFpD4JBwEe6MjupPj9Muaw" association="_tdNhEJBwEe6MjupPj9Muaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tdOII5BwEe6MjupPj9Muaw" name="Admin (Bank Management System)" type="_ma1x4JBtEe6MjupPj9Muaw" association="_tdNhEJBwEe6MjupPj9Muaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_01jnoJBwEe6MjupPj9Muaw" memberEnd="_01kOsJBwEe6MjupPj9Muaw _01kOsZBwEe6MjupPj9Muaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_01jnoZBwEe6MjupPj9Muaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_01jnopBwEe6MjupPj9Muaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_01kOsJBwEe6MjupPj9Muaw" name="loan management" type="_wNbl8JBwEe6MjupPj9Muaw" association="_01jnoJBwEe6MjupPj9Muaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_01kOsZBwEe6MjupPj9Muaw" name="customer" type="_35blIJBsEe6MjupPj9Muaw" association="_01jnoJBwEe6MjupPj9Muaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A5kzIJBxEe6MjupPj9Muaw" memberEnd="_A5mBQJBxEe6MjupPj9Muaw _A5mBQZBxEe6MjupPj9Muaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A5laMJBxEe6MjupPj9Muaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A5laMZBxEe6MjupPj9Muaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A5mBQJBxEe6MjupPj9Muaw" name="enter details" type="_8gt8gJBwEe6MjupPj9Muaw" association="_A5kzIJBxEe6MjupPj9Muaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A5mBQZBxEe6MjupPj9Muaw" name="Admin (Bank Management System)" type="_ma1x4JBtEe6MjupPj9Muaw" association="_A5kzIJBxEe6MjupPj9Muaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZDvREJBxEe6MjupPj9Muaw" memberEnd="_ZDv4IpBxEe6MjupPj9Muaw _ZDwfMJBxEe6MjupPj9Muaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZDv4IJBxEe6MjupPj9Muaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZDv4IZBxEe6MjupPj9Muaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZDv4IpBxEe6MjupPj9Muaw" name="record application" type="_LUU6wJBxEe6MjupPj9Muaw" association="_ZDvREJBxEe6MjupPj9Muaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZDwfMJBxEe6MjupPj9Muaw" name="Admin (Bank Management System)" type="_ma1x4JBtEe6MjupPj9Muaw" association="_ZDvREJBxEe6MjupPj9Muaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_enIBIJBxEe6MjupPj9Muaw" memberEnd="_enIoMpBxEe6MjupPj9Muaw _enJPQJBxEe6MjupPj9Muaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_enIoMJBxEe6MjupPj9Muaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_enIoMZBxEe6MjupPj9Muaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_enIoMpBxEe6MjupPj9Muaw" name="loan approval" type="_Q8PlgJBxEe6MjupPj9Muaw" association="_enIBIJBxEe6MjupPj9Muaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_enJPQJBxEe6MjupPj9Muaw" name="Admin (Bank Management System)" type="_ma1x4JBtEe6MjupPj9Muaw" association="_enIBIJBxEe6MjupPj9Muaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_ufaNkJEjEe611uwyzMExdw" node="_Ymp8IJEkEe611uwyzMExdw _aYOncJEkEe611uwyzMExdw _wvj10JEkEe611uwyzMExdw _QNzlYJElEe611uwyzMExdw _WCzp4JElEe611uwyzMExdw _NnPcsJEuEe611uwyzMExdw _RnzvIJEuEe611uwyzMExdw _mKpfEJFEEe611uwyzMExdw _zFtnUJFEEe611uwyzMExdw _FbRCUJFFEe611uwyzMExdw _Rg7MkJFFEe611uwyzMExdw _cUQzUJFFEe611uwyzMExdw _q-AD4JFFEe611uwyzMExdw _2SDLAJFFEe611uwyzMExdw _6fy90JFFEe611uwyzMExdw _KQVQYJHgEe6UH6VGuvkIVA _xH1sgJHgEe6UH6VGuvkIVA _Gh1v8JHhEe6UH6VGuvkIVA _KpN1AJHhEe6UH6VGuvkIVA _V1NzYJHhEe6UH6VGuvkIVA _Y8H58JHhEe6UH6VGuvkIVA _nqMBIJHyEe6Uvquv9KAQdQ _8z4XsJHyEe6Uvquv9KAQdQ _rtkSYJJzEe6dbJJbFmNo5A" group="_TYz-QJEkEe611uwyzMExdw _hEqeoJHyEe6Uvquv9KAQdQ _rcO7AJEkEe611uwyzMExdw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mREdsJEkEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_aYOncJEkEe611uwyzMExdw" source="_Ymp8IJEkEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0VSmYJEkEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_wvj10JEkEe611uwyzMExdw" source="_aYOncJEkEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Z179QJElEe611uwyzMExdw" target="_WCzp4JElEe611uwyzMExdw" source="_wvj10JEkEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_oqSeMJEsEe611uwyzMExdw" target="_joYqkJEsEe611uwyzMExdw" source="_djKYwJEsEe611uwyzMExdw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_oqt8AJEsEe611uwyzMExdw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_oqt8AZEsEe611uwyzMExdw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QN5V4JEuEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_NnPcsJEuEe611uwyzMExdw" source="_QNzlYJElEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_Yt17sJFEEe611uwyzMExdw" target="_rzqYAJEuEe611uwyzMExdw" source="_ss0NkJEuEe611uwyzMExdw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_YvJjQJFEEe611uwyzMExdw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_YvKKUJFEEe611uwyzMExdw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ed2ygJFEEe611uwyzMExdw" name="[User info not according to format]" target="_QNzlYJElEe611uwyzMExdw" source="_RnzvIJEuEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_8_6moJFEEe611uwyzMExdw" target="_7lvHoJFEEe611uwyzMExdw" source="_4nKdsJFEEe611uwyzMExdw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_9AUPQJFEEe611uwyzMExdw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_9AUPQZFEEe611uwyzMExdw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BRja8JFFEe611uwyzMExdw" name="[Login info wrong]" target="_mKpfEJFEEe611uwyzMExdw" source="_zFtnUJFEEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HnHO0JFFEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_FbRCUJFFEe611uwyzMExdw" source="_mKpfEJFEEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UbrtgJFFEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_Rg7MkJFFEe611uwyzMExdw" source="_FbRCUJFFEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eQIDEJFFEe611uwyzMExdw" target="_cUQzUJFFEe611uwyzMExdw" source="_Rg7MkJFFEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_zloBAJFFEe611uwyzMExdw" target="_tYdUIJFFEe611uwyzMExdw" source="_uaVA0JFFEe611uwyzMExdw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_zmQTIJFFEe611uwyzMExdw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_zmQTIZFFEe611uwyzMExdw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_D0W5cJFGEe611uwyzMExdw" target="_-4yXUJFFEe611uwyzMExdw" source="_-HPloJFFEe611uwyzMExdw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_D0_LkJFGEe611uwyzMExdw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_D0_LkZFGEe611uwyzMExdw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_F2ko0JFGEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_2SDLAJFFEe611uwyzMExdw" source="_q-AD4JFFEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_mTpxMJHgEe6UH6VGuvkIVA" target="_dv19EJHgEe6UH6VGuvkIVA" source="_c47jMJHgEe6UH6VGuvkIVA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_mU2rEJHgEe6UH6VGuvkIVA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_mU3SIJHgEe6UH6VGuvkIVA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yg-CoJHgEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_xH1sgJHgEe6UH6VGuvkIVA" source="_KQVQYJHgEe6UH6VGuvkIVA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_H8w10JHhEe6UH6VGuvkIVA" target="_Gh1v8JHhEe6UH6VGuvkIVA" source="_xH1sgJHgEe6UH6VGuvkIVA"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_Pv73MJHhEe6UH6VGuvkIVA" target="_L0xCIJHhEe6UH6VGuvkIVA" source="_M41uQJHhEe6UH6VGuvkIVA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_PxD4kJHhEe6UH6VGuvkIVA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_PxD4kZHhEe6UH6VGuvkIVA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YHU_8JHhEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_V1NzYJHhEe6UH6VGuvkIVA" source="_KpN1AJHhEe6UH6VGuvkIVA"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_fen9oJHhEe6UH6VGuvkIVA" target="_cTp2cJHhEe6UH6VGuvkIVA" source="_bpcb0JHhEe6UH6VGuvkIVA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ffdrIJHhEe6UH6VGuvkIVA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_ffdrIZHhEe6UH6VGuvkIVA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wFyUcJHyEe6Uvquv9KAQdQ" target="_nqMBIJHyEe6Uvquv9KAQdQ" source="_RnzvIJEuEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0m_OwJHyEe6Uvquv9KAQdQ" name="[User approved]" target="_mKpfEJFEEe611uwyzMExdw" source="_nqMBIJHyEe6Uvquv9KAQdQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FRNJUJHzEe6Uvquv9KAQdQ" target="_8z4XsJHyEe6Uvquv9KAQdQ" source="_nqMBIJHyEe6Uvquv9KAQdQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GZcjwJHzEe6Uvquv9KAQdQ" inPartition="_rcO7AJEkEe611uwyzMExdw" target="_8z4XsJHyEe6Uvquv9KAQdQ" source="_Y8H58JHhEe6UH6VGuvkIVA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wbUa8JJzEe6dbJJbFmNo5A" target="_rtkSYJJzEe6dbJJbFmNo5A" source="_cUQzUJFFEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_x_h_sJJzEe6dbJJbFmNo5A" target="_uaVA0JFFEe611uwyzMExdw" source="_rtkSYJJzEe6dbJJbFmNo5A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_TYz-QJEkEe611uwyzMExdw" name="user" node="_Ymp8IJEkEe611uwyzMExdw _aYOncJEkEe611uwyzMExdw _wvj10JEkEe611uwyzMExdw _QNzlYJElEe611uwyzMExdw _joYqkJEsEe611uwyzMExdw _NnPcsJEuEe611uwyzMExdw _ss0NkJEuEe611uwyzMExdw _mKpfEJFEEe611uwyzMExdw _4nKdsJFEEe611uwyzMExdw _FbRCUJFFEe611uwyzMExdw _Rg7MkJFFEe611uwyzMExdw _q-AD4JFFEe611uwyzMExdw _tYdUIJFFEe611uwyzMExdw _2SDLAJFFEe611uwyzMExdw _-HPloJFFEe611uwyzMExdw _KQVQYJHgEe6UH6VGuvkIVA _dv19EJHgEe6UH6VGuvkIVA _xH1sgJHgEe6UH6VGuvkIVA _KpN1AJHhEe6UH6VGuvkIVA _L0xCIJHhEe6UH6VGuvkIVA _V1NzYJHhEe6UH6VGuvkIVA _bpcb0JHhEe6UH6VGuvkIVA" edge="_mREdsJEkEe611uwyzMExdw _0VSmYJEkEe611uwyzMExdw _QN5V4JEuEe611uwyzMExdw _HnHO0JFFEe611uwyzMExdw _UbrtgJFFEe611uwyzMExdw _F2ko0JFGEe611uwyzMExdw _yg-CoJHgEe6UH6VGuvkIVA _YHU_8JHhEe6UH6VGuvkIVA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_rcO7AJEkEe611uwyzMExdw" name="System" node="_WCzp4JElEe611uwyzMExdw _djKYwJEsEe611uwyzMExdw _RnzvIJEuEe611uwyzMExdw _rzqYAJEuEe611uwyzMExdw _zFtnUJFEEe611uwyzMExdw _7lvHoJFEEe611uwyzMExdw _cUQzUJFFEe611uwyzMExdw _uaVA0JFFEe611uwyzMExdw _6fy90JFFEe611uwyzMExdw _-4yXUJFFEe611uwyzMExdw _c47jMJHgEe6UH6VGuvkIVA _Gh1v8JHhEe6UH6VGuvkIVA _M41uQJHhEe6UH6VGuvkIVA _Y8H58JHhEe6UH6VGuvkIVA _cTp2cJHhEe6UH6VGuvkIVA _8z4XsJHyEe6Uvquv9KAQdQ" edge="_GZcjwJHzEe6Uvquv9KAQdQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_hEqeoJHyEe6Uvquv9KAQdQ" name="Admin" node="_nqMBIJHyEe6Uvquv9KAQdQ _rtkSYJJzEe6dbJJbFmNo5A"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_Ymp8IJEkEe611uwyzMExdw" name="InitialNode2" outgoing="_mREdsJEkEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_aYOncJEkEe611uwyzMExdw" name="Navigate to site" visibility="public" incoming="_mREdsJEkEe611uwyzMExdw" outgoing="_0VSmYJEkEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_wvj10JEkEe611uwyzMExdw" name="Click on signup" incoming="_0VSmYJEkEe611uwyzMExdw" outgoing="_Z179QJElEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QNzlYJElEe611uwyzMExdw" name="Fill registration form" incoming="_ed2ygJFEEe611uwyzMExdw" outgoing="_QN5V4JEuEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_joYqkJEsEe611uwyzMExdw" name="Registration Form" incoming="_oqSeMJEsEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_joZRoJEsEe611uwyzMExdw" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WCzp4JElEe611uwyzMExdw" name="Display registration form" incoming="_Z179QJElEe611uwyzMExdw" inPartition="_rcO7AJEkEe611uwyzMExdw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_djKYwJEsEe611uwyzMExdw" name="Registration Form" outgoing="_oqSeMJEsEe611uwyzMExdw" inPartition="_rcO7AJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_djuZcJEsEe611uwyzMExdw" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NnPcsJEuEe611uwyzMExdw" name="Submit Form" incoming="_QN5V4JEuEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_ss0NkJEuEe611uwyzMExdw" name="Filled form" outgoing="_Yt17sJFEEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_ss00oJEuEe611uwyzMExdw" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_RnzvIJEuEe611uwyzMExdw" name="Check user details" outgoing="_ed2ygJFEEe611uwyzMExdw _wFyUcJHyEe6Uvquv9KAQdQ" inPartition="_rcO7AJEkEe611uwyzMExdw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_rzqYAJEuEe611uwyzMExdw" name="Filled form" incoming="_Yt17sJFEEe611uwyzMExdw" inPartition="_rcO7AJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_rzq_EJEuEe611uwyzMExdw" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_mKpfEJFEEe611uwyzMExdw" name="Login" incoming="_BRja8JFFEe611uwyzMExdw _0m_OwJHyEe6Uvquv9KAQdQ" outgoing="_HnHO0JFFEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_4nKdsJFEEe611uwyzMExdw" name="Login credentials" outgoing="_8_6moJFEEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_4nLr0JFEEe611uwyzMExdw" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_zFtnUJFEEe611uwyzMExdw" name="Verify login details" outgoing="_BRja8JFFEe611uwyzMExdw" inPartition="_rcO7AJEkEe611uwyzMExdw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_7lvHoJFEEe611uwyzMExdw" name="Login credentials" incoming="_8_6moJFEEe611uwyzMExdw" inPartition="_rcO7AJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_7lvusJFEEe611uwyzMExdw" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FbRCUJFFEe611uwyzMExdw" name="Open Account" incoming="_HnHO0JFFEe611uwyzMExdw" outgoing="_UbrtgJFFEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Rg7MkJFFEe611uwyzMExdw" name="Add Balance" incoming="_UbrtgJFFEe611uwyzMExdw" outgoing="_eQIDEJFFEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_cUQzUJFFEe611uwyzMExdw" name="Balance Approved" incoming="_eQIDEJFFEe611uwyzMExdw" outgoing="_wbUa8JJzEe6dbJJbFmNo5A" inPartition="_rcO7AJEkEe611uwyzMExdw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_uaVA0JFFEe611uwyzMExdw" name="balance approval" incoming="_x_h_sJJzEe6dbJJbFmNo5A" outgoing="_zloBAJFFEe611uwyzMExdw" inPartition="_rcO7AJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_uaVn4JFFEe611uwyzMExdw" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_q-AD4JFFEe611uwyzMExdw" name="View account history" outgoing="_F2ko0JFGEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_tYdUIJFFEe611uwyzMExdw" name="account history" incoming="_zloBAJFFEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_tYd7MJFFEe611uwyzMExdw" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2SDLAJFFEe611uwyzMExdw" name="Check previous loans" incoming="_F2ko0JFGEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_-HPloJFFEe611uwyzMExdw" name="Filtering Requirements" outgoing="_D0W5cJFGEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_-HQMsJFFEe611uwyzMExdw" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_6fy90JFFEe611uwyzMExdw" name="Returned loans" inPartition="_rcO7AJEkEe611uwyzMExdw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_-4yXUJFFEe611uwyzMExdw" name="loan checking" incoming="_D0W5cJFGEe611uwyzMExdw" inPartition="_rcO7AJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_-4y-YJFFEe611uwyzMExdw" value="1"/>
+      </inputValue>
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_c47jMJHgEe6UH6VGuvkIVA" name="loan history" outgoing="_mTpxMJHgEe6UH6VGuvkIVA" inPartition="_rcO7AJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_c5CQ4JHgEe6UH6VGuvkIVA" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_KQVQYJHgEe6UH6VGuvkIVA" name="Available funds/loans" outgoing="_yg-CoJHgEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_dv19EJHgEe6UH6VGuvkIVA" name="loans received" incoming="_mTpxMJHgEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_dv3LMJHgEe6UH6VGuvkIVA" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xH1sgJHgEe6UH6VGuvkIVA" name="transfer funds" incoming="_yg-CoJHgEe6UH6VGuvkIVA" outgoing="_H8w10JHhEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Gh1v8JHhEe6UH6VGuvkIVA" name="Enter Account" incoming="_H8w10JHhEe6UH6VGuvkIVA" inPartition="_rcO7AJEkEe611uwyzMExdw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_M41uQJHhEe6UH6VGuvkIVA" name="fund transfer" outgoing="_Pv73MJHhEe6UH6VGuvkIVA" inPartition="_rcO7AJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_M42VUJHhEe6UH6VGuvkIVA" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_KpN1AJHhEe6UH6VGuvkIVA" name="confirmation" outgoing="_YHU_8JHhEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_L0xCIJHhEe6UH6VGuvkIVA" name="confirmation window" incoming="_Pv73MJHhEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_L0xpMJHhEe6UH6VGuvkIVA" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_V1NzYJHhEe6UH6VGuvkIVA" name="send" incoming="_YHU_8JHhEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_bpcb0JHhEe6UH6VGuvkIVA" name="Application" outgoing="_fen9oJHhEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_bpdC4JHhEe6UH6VGuvkIVA" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Y8H58JHhEe6UH6VGuvkIVA" name="Record transaction" outgoing="_GZcjwJHzEe6Uvquv9KAQdQ" inPartition="_rcO7AJEkEe611uwyzMExdw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_cTp2cJHhEe6UH6VGuvkIVA" name="Application" incoming="_fen9oJHhEe6UH6VGuvkIVA" inPartition="_rcO7AJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_cTrEkJHhEe6UH6VGuvkIVA" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_nqMBIJHyEe6Uvquv9KAQdQ" name="Approve user" incoming="_wFyUcJHyEe6Uvquv9KAQdQ" outgoing="_0m_OwJHyEe6Uvquv9KAQdQ _FRNJUJHzEe6Uvquv9KAQdQ" inPartition="_hEqeoJHyEe6Uvquv9KAQdQ"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_8z4XsJHyEe6Uvquv9KAQdQ" name="ActivityFinalNode49" incoming="_FRNJUJHzEe6Uvquv9KAQdQ _GZcjwJHzEe6Uvquv9KAQdQ" inPartition="_rcO7AJEkEe611uwyzMExdw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_rtkSYJJzEe6dbJJbFmNo5A" name="Balance Approved/Rejected" incoming="_wbUa8JJzEe6dbJJbFmNo5A" outgoing="_x_h_sJJzEe6dbJJbFmNo5A" inPartition="_hEqeoJHyEe6Uvquv9KAQdQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7JfxsJJvEe6dbJJbFmNo5A" memberEnd="_7Ji1AJJvEe6dbJJbFmNo5A _7Ji1AZJvEe6dbJJbFmNo5A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7JiN8JJvEe6dbJJbFmNo5A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7JiN8ZJvEe6dbJJbFmNo5A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7Ji1AJJvEe6dbJJbFmNo5A" name="transfer amount" type="_4-pqwJJvEe6dbJJbFmNo5A" association="_7JfxsJJvEe6dbJJbFmNo5A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7Ji1AZJvEe6dbJJbFmNo5A" name="customer" type="_35blIJBsEe6MjupPj9Muaw" association="_7JfxsJJvEe6dbJJbFmNo5A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Q-GGcJJwEe6dbJJbFmNo5A" memberEnd="_Q-GtgpJwEe6dbJJbFmNo5A _Q-Gtg5JwEe6dbJJbFmNo5A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q-GtgJJwEe6dbJJbFmNo5A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q-GtgZJwEe6dbJJbFmNo5A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q-GtgpJwEe6dbJJbFmNo5A" name="account closure" type="_NNwBUJJwEe6dbJJbFmNo5A" association="_Q-GGcJJwEe6dbJJbFmNo5A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q-Gtg5JwEe6dbJJbFmNo5A" name="customer" type="_35blIJBsEe6MjupPj9Muaw" association="_Q-GGcJJwEe6dbJJbFmNo5A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AFJ98JJxEe6dbJJbFmNo5A" memberEnd="_AFKlApJxEe6dbJJbFmNo5A _AFKlA5JxEe6dbJJbFmNo5A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AFKlAJJxEe6dbJJbFmNo5A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AFKlAZJxEe6dbJJbFmNo5A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AFKlApJxEe6dbJJbFmNo5A" name="apply for debit/credit card" type="_8OOvsJJwEe6dbJJbFmNo5A" association="_AFJ98JJxEe6dbJJbFmNo5A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AFKlA5JxEe6dbJJbFmNo5A" name="customer" type="_35blIJBsEe6MjupPj9Muaw" association="_AFJ98JJxEe6dbJJbFmNo5A"/>
+  </packagedElement>
+</uml:Model>
